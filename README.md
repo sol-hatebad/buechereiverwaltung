@@ -4,10 +4,10 @@ Create a use case diagram for a library system
 - which cases are available for the librarian 
 - how are Use Cases conneceted to each other
 
-# docs <Folder>
+# [docs](docs)
 Contain the documentation for the process of the use case diagram
 
-# png <Folder>
+# [png](png) 
 store the png files from the documentation
 
 # Changelog 
