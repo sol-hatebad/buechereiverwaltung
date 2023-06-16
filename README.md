@@ -20,3 +20,9 @@ store the png files from the documentation
 - extend design
 - add relationships  
 - add generalization
+
+16.06.2023
+- file use-case-library_3.png
+- changed "Bücher" into "Objekt"
+- add possibilities of what kind of objects "Objekt" can be
+- added a generalization from "Objekt" to "nach Objekten suchen" and "Katalog bearbeiten" to implement the additional kinds of "Objekte"
