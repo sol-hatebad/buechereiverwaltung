@@ -34,3 +34,8 @@ Contain the designs for the use case diagram and class diagram
 - simplified use cases and remove logical dependencies
 - removed use cases from "Katalog bearbeiten" and just added a note with "crud"
 - started to design a class diagram
+
+28.06.2023
+- Use Case diagramm :changed 'Katalog' to 'Datenbank'
+- edited class diagram, 
+- updated class diagram based on the changes from the use case diagramm
