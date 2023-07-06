@@ -39,3 +39,7 @@ Contain the designs for the use case diagram and class diagram
 - Use Case diagramm :changed 'Katalog' to 'Datenbank'
 - edited class diagram, 
 - updated class diagram based on the changes from the use case diagramm
+
+06.07.2023
+ - Updated class diagram
+ - implemented classes 
