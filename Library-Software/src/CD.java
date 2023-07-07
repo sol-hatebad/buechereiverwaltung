@@ -5,10 +5,14 @@ public class CD extends Objekt {
 
     //Methoden
     //Get
-    public String GetInterpret() { return this.interpret; }
+    public String GetInterpret()
+    {
+        return this.interpret;
+    }
 
     //Set
-    public void SetInterpret(String interpret) {
+    public void SetInterpret(String interpret)
+    {
         this.interpret = interpret;
     }
 }
