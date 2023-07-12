@@ -43,3 +43,7 @@ Contain the designs for the use case diagram and class diagram
 06.07.2023
  - Updated class diagram
  - implemented classes 
+ 
+ 12.07.2023
+  - implemented if function for create person Objects (through if else now different objects are created, Kunde, Mitarbeiter or none of these)
+  - added controll outputs for printing array content
