@@ -1,11 +1,13 @@
 public class Kunde extends Person {
     //Attribute
     protected int kundenNummer;
+    static int kNr = 100;
     //Konstruktoren
-    public Kunde(Person person, int kundenNummer){
+    public Kunde(Person person){
+        kNr++;
         this.vorname = person.GetVorname();
         this.nachname = person.GetNachname();
-        this.kundenNummer = kundenNummer;
+        this.kundenNummer = kNr;
     }
     //Methoden
     //GET

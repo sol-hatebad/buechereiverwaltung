@@ -1,10 +1,13 @@
 import java.util.Objects;
 import java.util.Scanner;
 
+
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
+    personInput();
+
     personInput();
 
 
@@ -27,11 +30,19 @@ public class Main {
         if (Objects.equals(art, "1")) {
             art = "Kunde";
             System.out.println("Sie sind als Kunde eingetragen");
+            datenbank.registrieren(person, art);
+            System.out.println("Vorname     : "+ datenbank.kunden[0].GetVorname());
+            System.out.println("Nachname    : "+ datenbank.kunden[0].GetNachname());
+            System.out.println("Kundennummer: "+ datenbank.kunden[0].GetKundennummer());
 
         } else if (Objects.equals(art, "2")) {
             art = "Bibliothekar";
-
             System.out.println("Sie sind als Bibliothekar eingetragen");
+            datenbank.registrieren(person, art);
+            System.out.println(datenbank.bibliothekare[0].GetVorname());
+            System.out.println(datenbank.bibliothekare[0].GetNachname());
+            System.out.println(datenbank.bibliothekare[0].GetMitarbeiterId());
+
         } else if (Objects.equals(art, "3")) {
             art = "Besucher";
             System.out.println("Sie sind als Besucher eingetragen");
@@ -39,7 +50,9 @@ public class Main {
             art = "";
             System.out.println("keine gültige eingabe!");
         }
-        datenbank.registrieren(person, art);
+
+
+
     }
 
 }
