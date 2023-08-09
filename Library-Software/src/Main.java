@@ -1,5 +1,6 @@
 import java.util.Objects;
 import java.util.Scanner;
+import java.util.ArrayList;
 
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,

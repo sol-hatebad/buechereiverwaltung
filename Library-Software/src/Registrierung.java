@@ -1,10 +1,5 @@
 //interface Registrierung {
-//    //Attribute
-//    private Datenbank benutzername;
-//    private Datenbank passwort;
-//
-//
-//
+
 //    //Konstruktoren
 //    public Registrierung(Datenbank benutzername, Datenbank passwort)
 //    {
@@ -15,9 +10,8 @@
 //    //Methoden
 //
 //    //Set
-//    public void SetPasswort(Datenbank passwort) {
-//        this.passwort = passwort;
-//    }
+//    public void SetPasswort(Datenbank passwort);
+//
 //    public void SetBenutzername(Datenbank benutzername) {
 //        this.benutzername = benutzername;
 //    }

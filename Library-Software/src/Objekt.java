@@ -1,4 +1,4 @@
-public abstract class Objekt {
+public abstract class Objekt {  //rename!!
     //Attribute
     protected String titel;
     protected int id;
