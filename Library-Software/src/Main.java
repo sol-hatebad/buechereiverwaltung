@@ -23,6 +23,8 @@ public class Main {
                 Buch.Ausleihen();
             } else if (aktion == 3) {
                 Buch.InfoBuch();
+            }else {
+                break;
             }
         }
     }
@@ -30,7 +32,7 @@ public class Main {
     public static int abfrage(){
         Scanner auswahl = new Scanner(System.in);
 
-        System.out.println( "Was möchten Sie machen?\n1. ein Buch hinzufügen\n2. ein Buch ausleihen\n3. Informationen über den Bestand ansehen\n4.Programm beenden " +
+        System.out.println( "Was möchten Sie machen?\n1. ein Buch hinzufügen\n2. ein Buch ausleihen\n3. Informationen über den Bestand ansehen\n4.Programm beenden\n " +
                 "Wählen SIe mit der Zahl die jeweilige Aktion aus");
         int aktion = auswahl.nextInt();
         return aktion;
