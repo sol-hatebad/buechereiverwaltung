@@ -15,6 +15,10 @@ public class Bibliothekar extends Person {
 
     public int GetMitarbeiterId() { return this.id; }
 
+    public int GetId(){
+        return this.id;
+    }
+
     public void lendObjekt() {
 
     }

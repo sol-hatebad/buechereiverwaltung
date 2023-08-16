@@ -38,19 +38,23 @@ public class Person {
     }
 
 
-    public String searchObjekt(){
+    public String searchObjekt()
+    {
 
         return null;
     }
-    public String borrowObjekt(){
+    public String borrowObjekt()
+    {
 
         return null;
     }
-    public String returnObjekt(){
+    public String returnObjekt()
+    {
 
         return null;
     }
-    public String ShowVerlauf(){
+    public String ShowVerlauf()
+    {
 
         return null;
     }

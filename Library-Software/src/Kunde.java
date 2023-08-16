@@ -1,6 +1,7 @@
 public class Kunde extends Person {
     //Attribute
     protected int kundenNummer;
+<<<<<<< HEAD
     static int kNr = 100;
     //Konstruktoren
     public Kunde(Person person){

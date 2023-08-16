@@ -8,6 +8,7 @@ public class Datenbank {
 
     //Methoden
     public void registrieren(Person person, String art) {
+
         int kNr = 1;
         int bNr = 1;
         if(Objects.equals(art, "Kunde")) {

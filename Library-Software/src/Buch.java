@@ -5,10 +5,14 @@ public class Buch extends Objekt {
 
     //Methoden
     //Get
-    public String GetAutor() { return this.autor; }
+    public String GetAutor()
+    {
+        return this.autor;
+    }
 
     //Set
-    public void SetAutor(String autor) {
+    public void SetAutor(String autor)
+    {
         this.autor = autor;
     }
 }
