@@ -1,6 +1,10 @@
 public class EBook extends Buch {
     //Attribute
     protected int groesse;
+
+    public EBook(String titel, String autor) {
+        super(titel, autor);
+    }
     //Konstruktoren
 
     //Methoden

@@ -7,9 +7,33 @@ import java.util.ArrayList;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-    personInput();
+        int aktion = 0;
+        Buch buch = new Buch("IT", "Stephen King");
+        buch = new Buch("Das Lied der Finsternis","Peter V. Brett");
+        buch = new Buch("Totengräbersohn 1","Sam Feuerbach");
+        buch = new Buch("Totengräbersohn 2","Sam Feuerbach");
+        buch = new Buch("Totengräbersohn 3","Sam Feuerbach");
+        buch = new Buch("Totengräbersohn 4","Sam Feuerbach");
+        while (aktion != 4){
 
-    personInput();
+            aktion = abfrage();
+            if (aktion == 1){
+                Buch.BuchHinzufügen();
+            } else if (aktion == 2) {
+                Buch.Ausleihen();
+            } else if (aktion == 3) {
+                Buch.InfoBuch();
+            }
+        }
+    }
+
+    public static int abfrage(){
+        Scanner auswahl = new Scanner(System.in);
+
+        System.out.println( "Was möchten Sie machen?\n1. ein Buch hinzufügen\n2. ein Buch ausleihen\n3. Informationen über den Bestand ansehen\n4.Programm beenden " +
+                "Wählen SIe mit der Zahl die jeweilige Aktion aus");
+        int aktion = auswahl.nextInt();
+        return aktion;
 
     }
 

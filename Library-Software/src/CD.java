@@ -1,6 +1,10 @@
-public class CD extends Objekt {
+public class CD extends Bestand {
     //Attribute
     protected String interpret;
+
+    public CD(String titel) {
+        super(titel);
+    }
     //Konstruktoren
 
     //Methoden

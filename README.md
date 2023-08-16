@@ -22,13 +22,13 @@ Contain the designs for the use case diagram and class diagram
 
 16.06.2023
 - file use-case-library_3.png
-- changed "Bücher" into "Objekt"
-- add possibilities of what kind of objects "Objekt" can be
-- added a generalization from "Objekt" to "nach Objekten suchen" and "Katalog bearbeiten" to implement the additional kinds of "Objekte"
+- changed "Bücher" into "Bestand"
+- add possibilities of what kind of objects "Bestand" can be
+- added a generalization from "Bestand" to "nach Objekten suchen" and "Katalog bearbeiten" to implement the additional kinds of "Objekte"
 
 21.06.2023
 - rebuild use case diagram
-- removed junction "Objekt"
+- removed junction "Bestand"
 
 22.06.2023
 - simplified use cases and remove logical dependencies
